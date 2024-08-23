@@ -1,0 +1,207 @@
+2024-08-23 12:54:45.993 [info] Extension host with pid 33893 started
+2024-08-23 12:54:45.993 [info] Skipping acquiring lock for /home/rafixp/laravel-laundry-rafi/~/.vscode/User/workspaceStorage/525c8774c35c689e85838e4da5fa89a8.
+2024-08-23 12:54:46.079 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-08-23 12:54:46.082 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-08-23 12:54:46.120 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-08-23 12:54:46.148 [info] Eager extensions activated
+2024-08-23 12:54:46.150 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-08-23 12:54:46.151 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-08-23 12:54:46.161 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-08-23 12:54:46.960 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-08-23 13:03:37.470 [info] ExtensionService#_doActivateExtension vscode.php-language-features, startup: false, activationEvent: 'onLanguage:php'
+2024-08-23 13:03:37.478 [info] ExtensionService#_doActivateExtension amiralizadeh9480.laravel-extra-intellisense, startup: false, activationEvent: 'onLanguage:php'
+2024-08-23 13:03:37.482 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-08-23 13:03:38.687 [error] Error: ENOENT: no such file or directory, scandir '/home/rafixp/laravel-laundry-rafi/lang'
+	at Object.readdirSync (node:fs:1509:26)
+	at t.readdirSync (node:electron/js2c/node_init:2:11418)
+	at /root/.vscode/extensions/amiralizadeh9480.laravel-extra-intellisense-0.6.6/dist/extension.js:1:141360
+2024-08-23 13:10:39.343 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-08-23 13:10:39.418 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-08-23 13:10:39.539 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-08-23 13:20:07.811 [error] Error: ENOENT: no such file or directory, scandir '/home/rafixp/laravel-laundry-rafi/lang'
+	at Object.readdirSync (node:fs:1509:26)
+	at t.readdirSync (node:electron/js2c/node_init:2:11418)
+	at /root/.vscode/extensions/amiralizadeh9480.laravel-extra-intellisense-0.6.6/dist/extension.js:1:141360
+2024-08-23 13:26:46.285 [info] ExtensionService#_doActivateExtension onecentlin.laravel-blade, startup: false, activationEvent: 'onLanguage:blade'
+2024-08-23 13:30:24.842 [error] 
+   ParseError 
+
+  syntax error, unexpected identifier "Route", expecting "{"
+
+  at routes/web.php:17
+     13▕ | be assigned to the "web" middleware group. Make something great!
+     14▕ |
+     15▕ */
+     16▕ 
+  ➜  17▕ Route::get('/', function () {
+     18▕     return view('welcome');
+     19▕ });
+     20▕ 
+     21▕ Route::get('/admin/login')
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-23 13:30:38.797 [error] 
+   ParseError 
+
+  syntax error, unexpected end of file
+
+  at routes/web.php:21
+     17▕ Route::get('/', function () {
+     18▕     return view('welcome');
+     19▕ });
+     20▕ 
+  ➜  21▕ Route::get('/admin/login')
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-23 13:30:47.507 [error] 
+   ParseError 
+
+  syntax error, unexpected end of file
+
+  at routes/web.php:24
+     20▕ Route::get('/', function () {
+     21▕     return view('welcome');
+     22▕ });
+     23▕ 
+  ➜  24▕ Route::get('/admin/login')
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-23 13:30:56.060 [error] 
+   ParseError 
+
+  syntax error, unexpected end of file
+
+  at routes/web.php:24
+     20▕ Route::get('/', function () {
+     21▕     return view('welcome');
+     22▕ });
+     23▕ 
+  ➜  24▕ Route::get('/admin/login')
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-23 13:31:09.556 [error] 
+   UnexpectedValueException 
+
+  Invalid route action: [].
+
+  at vendor/laravel/framework/src/Illuminate/Routing/RouteAction.php:92
+     88▕      */
+     89▕     protected static function makeInvokable($action)
+     90▕     {
+     91▕         if (! method_exists($action, '__invoke')) {
+  ➜  92▕             throw new UnexpectedValueException("Invalid route action: [{$action}].");
+     93▕         }
+     94▕ 
+     95▕         return $action.'@__invoke';
+     96▕     }
+
+      [2m+8 vendor frames [22m
+
+  9   routes/web.php:24
+      Illuminate\Support\Facades\Facade::__callStatic()
+      [2m+4 vendor frames [22m
+
+  14  app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+
+
+2024-08-23 13:33:12.895 [warning] [Decorations] CAPPING events from decorations provider vscode.git 535
+2024-08-23 13:33:12.914 [warning] [Decorations] CAPPING events from decorations provider vscode.git 535
+2024-08-23 13:33:13.905 [error] Error: No such branch: master.
+	at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-08-23 13:33:13.917 [error] Error: No such branch: master.
+	at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-08-23 13:33:15.091 [warning] [Decorations] CAPPING events from decorations provider vscode.git 535
+2024-08-23 13:33:16.098 [error] Error: No such branch: master.
+	at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-08-23 13:33:20.145 [warning] [Decorations] CAPPING events from decorations provider vscode.git 535
+2024-08-23 13:33:21.149 [error] Error: No such branch: master.
+	at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-08-23 13:33:24.920 [warning] [Decorations] CAPPING events from decorations provider vscode.git 535
+2024-08-23 13:33:25.194 [warning] [Decorations] CAPPING events from decorations provider vscode.git 536
+2024-08-23 13:33:25.923 [error] Error: No such branch: main.
+	at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-08-23 13:33:26.198 [error] Error: No such branch: main.
+	at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-08-23 13:33:30.252 [warning] [Decorations] CAPPING events from decorations provider vscode.git 536
+2024-08-23 13:33:31.257 [error] Error: No such branch: main.
+	at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-08-23 13:33:35.269 [warning] [Decorations] CAPPING events from decorations provider vscode.git 535
